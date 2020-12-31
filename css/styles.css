@@ -1,0 +1,97 @@
+body {
+  /*css reset*/
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/gym.jpg');
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+.left {
+display: inline-block;
+position: absolute;
+top: 20px;
+left: 30px;
+}
+.left img {
+  width: 110px;
+}
+.left div {
+  text-align: center;
+  line-height: 1;
+  font-size: 20px;
+}
+.centre {
+  display: block;
+  width: 36%;
+  margin: 20px auto;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  font-size: 20px;
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding:  20px 10px;
+}
+.navbar li a:hover {
+  text-decoration: underline;
+  color: #62ff00;
+}
+.btn {
+  font-family: 'Inconsolata', monospace;
+  margin: 10px 8px;
+  background-color: #08384d;
+  color: white;
+  padding: 5px 5px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color:#5f312d;
+}
+.container {
+  border: 3px solid #000000;
+  margin: 60px 60px;
+  padding: 40px;
+  width: 36%;
+  border-radius: 22px;
+}
+.form-group input {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  color: #000000;
+  display: block;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px auto;
+}
+.container button {
+  display: block;
+  width: 57%;
+  margin:10px auto;
+  padding: 7px;
+  border-radius: 4px;
+  background-color: #df4343;
+}
+.container button:hover {
+  color : white;
+}
+.container h2 {
+  text-align: center;
+}
